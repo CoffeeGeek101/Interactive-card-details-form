@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Interactive card details form</title>
+</head>
+<body>
+  <div class="wrapper">
+  <div class="bg">
+    <img class="desktop" src="./images/bg-main-desktop.png" alt="bg"/>
+    <img class="mobile" src="./images/bg-main-mobile.png" alt="bg"/> 
+    <div class="card-wrapper">
+      <img class="card-back" src="./images/bg-card-back.png" alt="img" />
+      <img class="card-front" src="./images/bg-card-front.png" alt="img" />
+    </div>
+  </div>
+  <form class="form" action="./index-2.html">
+    <label class="lable-s" for="cn">CARDHOLDER NAME</label><br>
+    <input type="text" id="card_name" name="cn" placeholder="e.g. Jane Appleseed" type="text" required><br>
+    <label class="lable-s" for="cnn">CARD NUMBER</label><br>
+    <input type="text" id="card_no" name="cnn" placeholder="e.g. 1234 5678 9123 0000" type="number" required><br>
+    <div class="form-2">
+      <label for="mon">EXP.DATE (MM/YY)</label>
+      <label for="CVC">CVC</label><br>
+    </div>
+    <div class="form-input-2">
+      <input type="text" id="c_month" name="mon" placeholder="MM" required type="month"> 
+      <input type="text" id="c_year" name="mon" placeholder="YY" required type="number">
+      <input type="text" id="cvc" name="CVC" placeholder="e.g. 123" required type="number" ><br>
+    </div>  
+    <!-- <a class="link" href="./index-2.html">
+      <button class="button" type="button">Confirm</button>
+    </a> -->
+      <input class="button" type="submit" value="Confirm"/>
+  </form>
+</div>
+</body>
+</html>
