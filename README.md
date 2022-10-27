@@ -1,6 +1,7 @@
 # Frontend Mentor - Interactive card details form
 
-![Design preview for the Interactive card details form coding challenge](./design/desktop-preview.jpg)
+# STATUS - * Only single point of media query added, only responsive for mobile and desktops at this moment.
+           * User validation not handled fully, will inject JavaScripts into it.
 
 ## Welcome! 👋
 
